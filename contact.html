@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Let Music Speak</title>
+  <meta name="description" content="Let Music Speak presents concerts, workshops, outreach, and live music programming.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Let Music Speak</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="what-we-do.html">What We Do</a>
+      <a href="live-music.html">Live Music</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="button" href="donate.html">Donate</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="kicker">Contact</div>
+    <h1>Let’s talk.</h1>
+    <p class="lede">Want to bring live music to your community? Interested in partnering with Let Music Speak? Have a question about one of our programs? We’d love to hear from you.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container two-col">
+    <div>
+      <h2>Jordana Greenberg</h2>
+      <p>Director, Let Music Speak</p>
+      <p><a href="mailto:jordana@letmusicspeak.org">jordana@letmusicspeak.org</a><br>(812) 320-1541</p>
+    </div>
+    <div>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none"><label>Don’t fill this out: <input name="bot-field"></label></p>
+        <div class="form-grid">
+          <div><label for="name">Name</label><input id="name" name="name" required></div>
+          <div><label for="org">Organization</label><input id="org" name="organization"></div>
+          <div><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+          <div><label for="phone">Phone <span class="small">(optional)</span></label><input id="phone" name="phone"></div>
+          <div class="full">
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest">
+              <option>Live music for a retirement or senior living community</option>
+              <option>PaoliFest: Echoes</option>
+              <option>Partnership or collaboration</option>
+              <option>Supporting Let Music Speak</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="full"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+          <div class="full"><button class="button" type="submit" style="border:0;cursor:pointer">Send</button></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong style="color:var(--text)">LET MUSIC SPEAK</strong>
+      <p>Creating community through music.</p>
+      <p>Paoli, Indiana • Cincinnati, Ohio<br>
+      <a href="mailto:jordana@letmusicspeak.org">jordana@letmusicspeak.org</a><br>
+      (812) 320-1541</p>
+    </div>
+    <div>
+      <p><a href="what-we-do.html">What We Do</a> · <a href="live-music.html">Live Music</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="donate.html">Donate</a></p>
+      <p class="small">Let Music Speak is a 501(c)(3) nonprofit organization.<br>© 2026 Let Music Speak, Inc.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
