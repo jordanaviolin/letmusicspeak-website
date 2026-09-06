@@ -115,7 +115,7 @@ section.alt{background:#f2efe9}
 .director-grid h2{font-size:clamp(1.5rem,2vw,2rem);margin-bottom:12px}
 .director-grid p{margin-bottom:0}
 .about-heading{font-size:clamp(2rem,3.2vw,3.25rem);white-space:nowrap}
-.contact-name{font-size:clamp(2rem,3.3vw,3.25rem)}
+.contact-name{font-size:clamp(1.5rem,2vw,2rem)}
 .meta{font-size:.92rem;color:var(--muted)}
 .callout{border-left:3px solid var(--accent);padding-left:22px;font-size:1.12rem}
 .list-clean{padding-left:1.2rem}
