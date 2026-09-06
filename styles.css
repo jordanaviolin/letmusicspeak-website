@@ -64,6 +64,7 @@ h3{font-size:1.65rem;margin-bottom:10px}
 .photo-hero img{object-position:center 58%}
 .section-photo{margin-bottom:28px;border-radius:16px}
 .section-photo img{min-height:0;aspect-ratio:3/2}
+.poster-photo img{aspect-ratio:auto;max-height:620px;object-fit:contain;background:#fff}
 .photo-band{padding:0 0 76px}
 .photo-grid{display:grid;gap:12px}
 .four-up{grid-template-columns:repeat(4,1fr)}
@@ -111,7 +112,7 @@ section.alt{background:#f2efe9}
 .director-grid{display:grid;grid-template-columns:180px minmax(0,680px);gap:34px;align-items:center}
 .director-photo{margin:0;border-radius:14px;overflow:hidden}
 .director-photo img{width:100%;aspect-ratio:4/5;object-fit:cover}
-.director-grid h2{font-size:clamp(1.8rem,3vw,2.8rem);margin-bottom:12px}
+.director-grid h2{font-size:clamp(1.5rem,2vw,2rem);margin-bottom:12px}
 .director-grid p{margin-bottom:0}
 .about-heading{font-size:clamp(2rem,3.2vw,3.25rem);white-space:nowrap}
 .contact-name{font-size:clamp(2rem,3.3vw,3.25rem)}
