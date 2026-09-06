@@ -18,6 +18,7 @@ body{
   line-height:1.6;
 }
 a{color:inherit}
+.nowrap{white-space:nowrap}
 img{max-width:100%;display:block}
 .container{width:min(var(--max),calc(100% - 40px));margin:0 auto}
 .site-header{
@@ -90,6 +91,7 @@ h3{font-size:1.65rem;margin-bottom:10px}
 section{padding:76px 0}
 section.alt{background:#f2efe9}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cards.two-up{grid-template-columns:repeat(2,1fr)}
 .card{
   background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px
 }
@@ -97,6 +99,8 @@ section.alt{background:#f2efe9}
 .card a{font-weight:700}
 .card-photo{width:calc(100% + 52px);max-width:none;height:210px;object-fit:cover;margin:-26px -26px 24px;border-radius:17px 17px 0 0}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.about-heading{font-size:clamp(2rem,3.2vw,3.25rem);white-space:nowrap}
+.contact-name{font-size:clamp(2rem,3.3vw,3.25rem)}
 .meta{font-size:.92rem;color:var(--muted)}
 .callout{border-left:3px solid var(--accent);padding-left:22px;font-size:1.12rem}
 .list-clean{padding-left:1.2rem}
@@ -119,7 +123,8 @@ textarea{min-height:160px;resize:vertical}
   .nav{align-items:flex-start;padding:18px 0;flex-direction:column}
   .nav-links{gap:14px}
   .hero{padding-top:64px}
-  .hero-grid,.two-col,.cards,.footer-grid,.form-grid{grid-template-columns:1fr}
+  .hero-grid,.two-col,.cards,.cards.two-up,.footer-grid,.form-grid{grid-template-columns:1fr}
+  .about-heading{white-space:normal}
   .four-up{grid-template-columns:repeat(2,1fr)}
   .impact-grid{grid-template-columns:1fr}
   .festival-gallery{grid-template-columns:1fr}
