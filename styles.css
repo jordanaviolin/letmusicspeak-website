@@ -116,7 +116,10 @@ section.alt{background:#f2efe9}
 .card a{font-weight:700}
 .card-photo{width:calc(100% + 52px);max-width:none;height:210px;object-fit:cover;margin:-26px -26px 24px;border-radius:17px 17px 0 0}
 .card-photo.contain{object-fit:contain;background:#fff;padding:14px}
-.card-photo.past-project-art{height:360px;padding:18px}
+.card-art-frame{height:360px;margin:-26px -26px 24px;border-radius:17px 17px 0 0;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.past-project-art{display:block;object-fit:contain}
+.past-project-art.mural-art{height:100%;width:auto}
+.past-project-art.heartland-art{width:62%;height:auto}
 .card-photo.partnership-art{height:360px;padding:18px}
 .section-subhead{font-size:1.45rem;margin-top:30px}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
