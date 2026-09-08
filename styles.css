@@ -1,15 +1,15 @@
 
 :root{
-  --bg:#fff3d5;
-  --text:#432344;
-  --muted:#675549;
-  --accent:#205ca3;
-  --kicker:#c93624;
-  --line:#e5b84d;
-  --card:#fffdf7;
+  --bg:#fbfaf7;
+  --text:#1f1f1d;
+  --muted:#5f5b56;
+  --accent:#2458a6;
+  --kicker:#2458a6;
+  --line:#d8b64a;
+  --card:#ffffff;
   --alt:#ffd867;
-  --header:rgba(255,243,213,.96);
-  --button-bg:#df482f;
+  --header:rgba(251,250,247,.96);
+  --button-bg:#24345f;
   --button-text:#ffffff;
   --max:1120px;
 }
@@ -191,16 +191,16 @@ textarea{min-height:160px;resize:vertical}
 .pitch-detail strong{display:block;font-family:Georgia,'Times New Roman',serif;font-size:1.35rem;font-weight:500;margin-bottom:6px}
 .pitch-detail p{margin:0;color:#4b4945}
 .theme-festival{
-  --bg:#fff3d5;
-  --text:#432344;
-  --muted:#675549;
-  --accent:#205ca3;
-  --kicker:#c93624;
-  --line:#e5b84d;
-  --card:#fffdf7;
+  --bg:#fbfaf7;
+  --text:#1f1f1d;
+  --muted:#5f5b56;
+  --accent:#2458a6;
+  --kicker:#2458a6;
+  --line:#d8b64a;
+  --card:#ffffff;
   --alt:#ffd867;
-  --header:rgba(255,243,213,.96);
-  --button-bg:#df482f;
+  --header:rgba(251,250,247,.96);
+  --button-bg:#24345f;
   --button-text:#fff;
 }
 .theme-festival .project-feed,.theme-festival .project-entry{border-color:#d9a62f}
