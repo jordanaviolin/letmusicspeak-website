@@ -143,6 +143,8 @@ section.alt{background:#f2efe9}
 .card-photo.partnership-photo{padding:0;object-fit:cover;object-position:center 64%}
 .section-subhead{font-size:1.45rem;margin-top:30px}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.concert-section{align-items:center}
+.concert-section h2{font-size:clamp(2.25rem,3vw,2.75rem);white-space:nowrap}
 .outreach-section{padding-bottom:42px}
 .past-projects{padding-top:42px}
 .director-section{padding:52px 0}
@@ -193,6 +195,7 @@ textarea{min-height:160px;resize:vertical}
   .hero-grid,.two-col,.cards,.cards.two-up,.project-feed,.footer-grid,.form-grid,.director-grid{grid-template-columns:1fr}
   .director-photo{max-width:160px}
   .about-heading{white-space:normal}
+  .concert-section h2{white-space:normal}
   .four-up{grid-template-columns:repeat(2,1fr)}
   .impact-grid{grid-template-columns:1fr}
   .festival-gallery{grid-template-columns:1fr}
