@@ -11,6 +11,12 @@
   <style>
     .regional-hero h1 { font-size: clamp(2.6rem, 4vw, 4.25rem); }
     .regional-hero .quartet-hero-media { box-shadow: none; }
+    @media (min-width: 821px) {
+      .regional-hero .hero-grid {
+        grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+        gap: 44px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -68,7 +74,6 @@
         <p class="meta">Violin • Guitar</p>
         <p>Violin and guitar create a warm, amplified sound with improvisation, jazz standards, Beatles favorites, rock and classic rock, Broadway and film songs, and requests from across the decades.</p>
         <p>The duo brings its own compact sound tower and all required performance equipment. The community provides two armless chairs and access to one electrical outlet.</p>
-        <p><a href="https://sevenhillsstringduo.com/home">Visit Seven Hills String Duo</a></p>
       </article>
       <article class="card">
         <h3>Let Music Speak Quartet</h3>
