@@ -59,7 +59,7 @@ h3{font-size:1.65rem;margin-bottom:10px}
 .hero-media{height:min(610px,62vw);min-height:430px;border-radius:2px 64px 2px 2px;box-shadow:18px 18px 0 #e8b929}
 .hero-media img{object-position:center}
 .hero-media.quartet-hero-media{width:100%;max-width:100%;min-width:0;height:auto;min-height:0;aspect-ratio:1600/1067}
-.hero-grid > *{min-width:0}
+.hero-grid > *{min-width:0}\n.regional-hero h1{font-size:clamp(2.8rem,4.5vw,4.75rem)}\n.regional-hero .quartet-hero-media{box-shadow:none}
 .photo-story{padding:0 0 76px}
 .photo-grid{display:grid;grid-template-columns:1.1fr 1.45fr 1fr;grid-template-rows:310px;gap:16px}
 .photo-grid .media:nth-child(1) img{object-position:center 30%}
