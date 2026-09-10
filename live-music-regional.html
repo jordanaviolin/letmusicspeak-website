@@ -10,7 +10,21 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     .regional-hero h1 { font-size: clamp(2.6rem, 4vw, 4.25rem); }
-    .regional-hero .quartet-hero-media { box-shadow: none; }
+    .regional-hero .quartet-hero-media {
+      margin: 0;
+      border-radius: 18px;
+      overflow: hidden;
+      aspect-ratio: 3 / 2;
+      box-shadow: none;
+      align-self: center;
+    }
+    .regional-hero .quartet-hero-media img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
     @media (min-width: 821px) {
       .regional-hero .hero-grid {
         grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
